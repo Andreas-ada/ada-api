@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ada-api"
+version = "0.1.0"
+description = ""
+authors = ["Andy <nandy1990>"]
+readme = "README.md"
+packages = [{include = "ada_aptii"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.73.0"
+python-dotenv = "^0.15.0"
+toml = "^0.10.2"
+semver = "^2.13.0"
+fastapi-cache2 = "^0.1.8"
+uvicorn = "^0.17.3"
+pydash = "^4.9.2"
+
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
